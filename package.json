@@ -1,0 +1,29 @@
+{
+  "name": "task-informer-service",
+  "version": "1.0.0",
+  "description": "Task informer service to send Email.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryand1234/task-informer-service.git"
+  },
+  "keywords": [
+    "node",
+    "email"
+  ],
+  "author": "Riyan Dhiman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryand1234/task-informer-service/issues"
+  },
+  "homepage": "https://github.com/Ryand1234/task-informer-service#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.10.5",
+    "nodemailer": "^6.4.11"
+  }
+}
