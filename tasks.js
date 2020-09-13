@@ -6,7 +6,7 @@ const checkForTask = async () =>{
 	task = await Task.findOne({date: {$lte: time}}).sort({priority: -1}).limit(1);
 	if(task == null){
 		console.log("NO Data");
-		setTimeout(()=>{checkForTask()}, 60000);
+		setTimeout(()=>{checkForTask()}, 600000);
 		return;	
 	} else {
 		transporter(task);	
